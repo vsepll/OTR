@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Detalle del proyecto: Sistema CCTV Corporativo. Despliegue de red de videovigilancia IP." />
+    <!-- Preconnect Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Modern Typography -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@300;400;600;800&display=swap"
+        rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Google Model Viewer -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <title>Sistema CCTV Corporativo | OTRelectricidad</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar scrolled" id="navbar">
+        <div class="container nav-content">
+            <a href="./index.html" class="logo">
+                <span class="logo-accent">OTR</span>electricidad
+            </a>
+            <nav class="nav-links">
+                <a href="./index.html#servicios" class="nav-link">Servicios</a>
+                <a href="./index.html#proyectos" class="nav-link">Proyectos</a>
+                <a href="./index.html#cotizador" class="nav-link">Cotizador</a>
+                <a href="./index.html#contacto" class="btn btn-primary btn-sm">Contactar</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu" id="mobile-menu-btn">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-content">
+            <button class="close-menu-btn" id="close-menu-btn">
+                <i data-lucide="x"></i>
+            </button>
+            <a href="./index.html#servicios" class="mobile-nav-link">Servicios</a>
+            <a href="./index.html#proyectos" class="mobile-nav-link">Proyectos</a>
+            <a href="./index.html#cotizador" class="mobile-nav-link">Cotizador</a>
+            <a href="./index.html#contacto" class="btn btn-primary">Contactar Ahora</a>
+        </div>
+    </div>
+
+    <!-- Project Detail Hero -->
+    <main class="project-detail py-24 mt-8">
+        <div class="container">
+            <!-- Breadcrumb -->
+            <a href="./index.html#proyectos" class="back-link mb-4 inline-flex items-center text-muted">
+                <i data-lucide="chevron-left" class="icon-sm"></i> Volver a Proyectos
+            </a>
+
+            <!-- 3D Header -->
+            <div class="project-detail-hero glass-panel mb-8 reveal reveal-scale">
+                <model-viewer src="https://modelviewer.dev/shared-assets/models/RobotExpressive.glb"
+                    alt="Modelo 3D de Proyecto CCTV" auto-rotate camera-controls rotation-per-second="-15deg"
+                    camera-orbit="45deg 55deg 2m" shadow-intensity="1" class="detail-model-viewer">
+                </model-viewer>
+                <div class="badge absolute top-4 right-4 bg-dark">
+                    <span class="pulse-dot"></span> Interactivo 3D
+                </div>
+            </div>
+
+            <!-- Content -->
+            <article class="project-article reveal reveal-up">
+                <header class="mb-8 border-bottom pb-8">
+                    <h1 class="project-main-title mb-4">Sistema CCTV <span class="text-accent">Corporativo</span></h1>
+                    <div class="project-meta flex gap-4 text-muted">
+                        <span><i data-lucide="calendar" class="icon-sm inline-block"></i> Octubre 2025</span>
+                        <span><i data-lucide="map-pin" class="icon-sm inline-block"></i> Complejo Industrial
+                            Norte</span>
+                        <span><i data-lucide="tag" class="icon-sm inline-block"></i> Seguridad, Redes</span>
+                    </div>
+                </header>
+
+                <div class="article-content max-w-3xl">
+                    <h3>El Desafío</h3>
+                    <p>El cliente requería la implementación de un sistema de videovigilancia integral para un predio
+                        industrial de 5 hectáreas, garantizando cobertura total, visión nocturna avanzada y redundancia
+                        en el almacenamiento.</p>
+
+                    <h3>Nuestra Solución</h3>
+                    <p>Diseñamos e implementamos una arquitectura de red IP dedicada, instalando más de 120 cámaras 4K
+                        de última generación. El sistema se integró con un centro de monitoreo (*SOC*) equipado con
+                        video wall y software de analítica biométrica (reconocimiento facial y lectura de patentes
+                        vehiculares).</p>
+
+                    <ul class="feature-list mt-8 mb-8 pl-4">
+                        <li><strong>120+</strong> Cámaras IP tipo Bullet y PTZ.</li>
+                        <li><strong>Anillo de Fibra Óptica</strong> para máxima velocidad de transmisión.</li>
+                        <li><strong>Almacenamiento SAN</strong> redundante con 60 días de retención garantizada.</li>
+                        <li>Visualización remota corporativa encriptada de extremo a extremo.</li>
+                    </ul>
+
+                    <h3>Resultados</h3>
+                    <p>Se logró cubrir todos los puntos ciegos del complejo industrial, reduciendo los falsos positivos
+                        de intrusión en un 95% gracias a las analíticas de video integradas, optimizando el tiempo y
+                        recursos del equipo de seguridad física.</p>
+                </div>
+
+                <div class="mt-12 text-center">
+                    <a href="./index.html#cotizador" class="btn btn-primary btn-lg shine-effect">
+                        Quiero una solución similar
+                        <i data-lucide="arrow-right" class="icon-sm"></i>
+                    </a>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contacto" class="footer py-12 section-darker border-top">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="./index.html" class="logo mb-4 inline-block">
+                    <span class="logo-accent">OTR</span>electricidad
+                </a>
+                <p class="text-muted">La ingeniería detrás de la tranquilidad absoluta.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Contacto Directo</h4>
+                <a href="https://wa.me/1234567890" target="_blank" class="contact-link">
+                    <i data-lucide="message-square" class="text-accent"></i>
+                    Atención Vía WhatsApp
+                </a>
+                <a href="mailto:contacto@otrelectricidad.com" class="contact-link mt-2">
+                    <i data-lucide="mail" class="text-accent"></i>
+                    contacto@otrelectricidad.com
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom text-center pt-8 border-top text-muted text-sm mt-8">
+            &copy; 2025 OTRelectricidad. Todos los derechos reservados.
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/1234567890" class="floating-wa pulse-wa" target="_blank" aria-label="Chat en WhatsApp">
+        <i data-lucide="message-circle" class="wa-icon"></i>
+    </a>
+
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>

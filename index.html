@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Servicios de instalaciones eléctricas, CCTV, alarmas monitoreadas y barreras físicas. Soluciones de alta calidad para la industria y el hogar." />
+    <!-- Preconnect Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Modern Typography: Outfit (headings) & Inter (body) -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@300;400;600;800&display=swap"
+        rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Google Model Viewer for 3D Assets -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <title>OTRelectricidad | Innovación y Seguridad</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">
+                <span class="logo-accent">OTR</span>electricidad
+            </a>
+            <nav class="nav-links">
+                <a href="#servicios" class="nav-link">Servicios</a>
+                <a href="#proyectos" class="nav-link">Proyectos</a>
+                <a href="#cotizador" class="nav-link">Cotizador</a>
+                <a href="#contacto" class="btn btn-primary btn-sm">Contactar</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu" id="mobile-menu-btn">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-content">
+            <button class="close-menu-btn" id="close-menu-btn">
+                <i data-lucide="x"></i>
+            </button>
+            <a href="#servicios" class="mobile-nav-link">Servicios</a>
+            <a href="#proyectos" class="mobile-nav-link">Proyectos</a>
+            <a href="#cotizador" class="mobile-nav-link">Cotizador</a>
+            <a href="#contacto" class="btn btn-primary">Contactar Ahora</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero min-h-screen">
+        <div class="hero-bg">
+            <div class="glow-orb orb-1"></div>
+            <div class="glow-orb orb-2"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text reveal reveal-up">
+                <div class="badge fade-in">
+                    <span class="pulse-dot"></span> Sistemas Inteligentes Integrados
+                </div>
+                <h1 class="hero-title pt-6">
+                    Soluciones <br />
+                    <span class="text-accent gradient-text">Integrales</span> en <br />
+                    Energía y Seguridad
+                </h1>
+                <p class="hero-subtitle pb-8">
+                    Proyectos de electrificación industrial y residencial, sistemas de videovigilancia y control de
+                    accesos. Soluciones confiables para tu tranquilidad.
+                </p>
+                <div class="hero-cta">
+                    <a href="#cotizador" class="btn btn-primary btn-lg shine-effect">
+                        Solicitar Presupuesto
+                        <i data-lucide="arrow-right" class="icon-sm"></i>
+                    </a>
+                    <a href="#servicios" class="btn btn-outline btn-lg ml-4">
+                        Explorar Servicios
+                    </a>
+                </div>
+            </div>
+            <div class="hero-graphics reveal reveal-right">
+                <div class="glass-panel">
+                    <div class="glass-header">
+                        <div class="dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <span class="glass-title">Dashboard</span>
+                    </div>
+                    <div class="glass-body">
+                        <div class="stat-card">
+                            <i data-lucide="zap" class="text-accent"></i>
+                            <div>
+                                <h4>Alta Tensión</h4>
+                                <p>Eficiencia 99.9%</p>
+                            </div>
+                        </div>
+                        <div class="stat-card delay-1">
+                            <i data-lucide="cctv" class="text-accent"></i>
+                            <div>
+                                <h4>CCTV Pro</h4>
+                                <p>Monitoreo 24/7</p>
+                            </div>
+                        </div>
+                        <div class="stat-card delay-2">
+                            <i data-lucide="shield-check" class="text-accent"></i>
+                            <div>
+                                <h4>Alarmas</h4>
+                                <p>Respuesta < 3s</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="services py-24 section-darker">
+        <div class="container">
+            <div class="section-header reveal reveal-up text-center">
+                <h2 class="section-title">Nuestra <span class="text-accent">Experiencia</span></h2>
+                <p class="section-description">Diseñamos, implementamos y mantenemos infraestructuras seguras y
+                    eficientes para la industria y el hogar.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card reveal reveal-up stagger-1">
+                    <div class="service-icon-wrapper">
+                        <i data-lucide="plug-zap" class="service-icon"></i>
+                    </div>
+                    <h3 class="service-title">Instalaciones Eléctricas</h3>
+                    <p class="service-text">Planificación y ejecución de obras eléctricas de alta confiabilidad para la
+                        industria y el hogar, cumpliendo estrictas normativas vigentes.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card reveal reveal-up stagger-2">
+                    <div class="service-icon-wrapper">
+                        <i data-lucide="cctv" class="service-icon"></i>
+                    </div>
+                    <h3 class="service-title">Sistemas CCTV</h3>
+                    <p class="service-text">Arquitectura de videovigilancia con analítica inteligente, visión nocturna
+                        avanzada y almacenamiento seguro en la nube o local.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card reveal reveal-up stagger-3">
+                    <div class="service-icon-wrapper">
+                        <i data-lucide="radio-tower" class="service-icon"></i>
+                    </div>
+                    <h3 class="service-title">Alarmas Monitoreadas</h3>
+                    <p class="service-text">Integración de sensores de alto rendimiento con centrales de monitoreo 24/7.
+                        Protocolos de respuesta inmediata ante intrusiones.</p>
+                </div>
+                <!-- Service 4 -->
+                <div class="service-card reveal reveal-up stagger-4">
+                    <div class="service-icon-wrapper">
+                        <i data-lucide="lock" class="service-icon"></i>
+                    </div>
+                    <h3 class="service-title">Barreras Físicas</h3>
+                    <p class="service-text">Control de acceso perimetral automatizado, barreras vehiculares de alto
+                        tráfico y sistemas biométricos de grado empresarial.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="proyectos" class="projects py-24">
+        <div class="container">
+            <div class="section-header reveal reveal-up text-center">
+                <h2 class="section-title">Casos de <span class="text-accent">Éxito</span></h2>
+                <p class="section-description">Explora algunos de nuestros proyectos destacados y soluciones
+                    implementadas, con tecnología 3D interactiva.</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card reveal reveal-up stagger-1">
+                    <div class="project-media">
+                        <model-viewer src="https://modelviewer.dev/shared-assets/models/RobotExpressive.glb"
+                            alt="Modelo 3D de Proyecto 1" auto-rotate camera-controls rotation-per-second="-20deg"
+                            camera-orbit="45deg 55deg 2.5m" shadow-intensity="1">
+                        </model-viewer>
+                        <div class="project-overlay">
+                            <span class="badge">Interactúa en 3D</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sistema CCTV Corporativo</h3>
+                        <p class="project-text">Despliegue de red de videovigilancia IP con más de 120 cámaras 4K,
+                            análisis biométrico y centro de monitoreo redundante.</p>
+                        <a href="./proyecto-cctv.html" class="project-link">Ver detalles <i data-lucide="arrow-right"
+                                class="icon-sm"></i></a>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card reveal reveal-up stagger-2">
+                    <div class="project-media">
+                        <model-viewer src="https://modelviewer.dev/shared-assets/models/Astronaut.glb"
+                            alt="Modelo 3D de Proyecto 2" auto-rotate camera-controls rotation-per-second="30deg"
+                            camera-orbit="0deg 75deg 2m" shadow-intensity="1">
+                        </model-viewer>
+                        <div class="project-overlay">
+                            <span class="badge">Interactúa en 3D</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Automatización Industrial</h3>
+                        <p class="project-text">Implementación de tableros de control y automatización de líneas de
+                            ensamble para planta automotriz, optimizando el consumo energético.</p>
+                        <a href="./proyecto-automatizacion.html" class="project-link">Ver detalles <i
+                                data-lucide="arrow-right" class="icon-sm"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quotation Section -->
+    <section id="cotizador" class="quotation py-24">
+        <div class="container">
+            <div class="quotation-wrapper glass-panel reveal reveal-scale">
+                <div class="quotation-info">
+                    <h2 class="section-title text-left">Cotiza tu <span class="text-accent">Proyecto</span></h2>
+                    <p class="quotation-desc">Complete el siguiente formulario para contarnos sobre su necesidad.
+                        Nuestro equipo evaluará los detalles técnicos de su proyecto y le ofrecerá una propuesta a
+                        medida de forma ágil.</p>
+                    <ul class="benefit-list">
+                        <li><i data-lucide="check-circle" class="text-accent"></i> Asignación de ingeniero
+                            especializado.</li>
+                        <li><i data-lucide="check-circle" class="text-accent"></i> Presupuesto detallado en 24hs
+                            hábiles.</li>
+                        <li><i data-lucide="check-circle" class="text-accent"></i> Asesoría técnica inicial sin cargo.
+                        </li>
+                    </ul>
+                </div>
+                <div class="quotation-form-wrapper">
+                    <form id="quote-form" class="quote-form">
+                        <div class="form-group">
+                            <label for="tipoCliente">Tipo de Proyecto</label>
+                            <select id="tipoCliente" required class="form-control">
+                                <option value="" disabled selected>Seleccione el ámbito...</option>
+                                <option value="Industria">Industrial / Corporativo</option>
+                                <option value="Comercio">Comercial</option>
+                                <option value="Hogar">Residencial</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="servicioInteres">Servicio Principal Requerido</label>
+                            <select id="servicioInteres" required class="form-control">
+                                <option value="" disabled selected>Seleccione el servicio...</option>
+                                <option value="Obra Electrica">Obra Eléctrica Integral</option>
+                                <option value="CCTV">Sistema CCTV Avanzado</option>
+                                <option value="Alarma">Alarma Monitoreada</option>
+                                <option value="Accesos">Barreras y Control de Acceso</option>
+                                <option value="Multiples">Integración Multi-sistema</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="dimensiones">Dimensión Estimada (m²)</label>
+                            <input type="text" id="dimensiones" placeholder="Ej: 500m², Terreno de 2 ha"
+                                class="form-control" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="detalles">Detalles Adicionales del Requerimiento</label>
+                            <textarea id="detalles" rows="4"
+                                placeholder="Describa brevemente la necesidad o problema a resolver..."
+                                class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block shine-effect">
+                            Generar Solicitud vía WhatsApp
+                            <i data-lucide="send" class="icon-sm"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contacto" class="footer py-12 section-darker border-top">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo mb-4 inline-block">
+                    <span class="logo-accent">OTR</span>electricidad
+                </a>
+                <p class="text-muted">La ingeniería detrás de la tranquilidad absoluta.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Contacto Directo</h4>
+                <a href="https://wa.me/1234567890" target="_blank" class="contact-link" id="footer-wa-link">
+                    <i data-lucide="message-square" class="text-accent"></i>
+                    Atención Vía WhatsApp
+                </a>
+                <a href="mailto:contacto@otrelectricidad.com" class="contact-link mt-2">
+                    <i data-lucide="mail" class="text-accent"></i>
+                    contacto@otrelectricidad.com
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom text-center pt-8 border-top text-muted text-sm mt-8">
+            &copy; 2025 OTRelectricidad. Todos los derechos reservados.
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/1234567890" class="floating-wa pulse-wa" target="_blank" aria-label="Chat en WhatsApp"
+        id="floating-whatsapp">
+        <i data-lucide="message-circle" class="wa-icon"></i>
+    </a>
+
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>

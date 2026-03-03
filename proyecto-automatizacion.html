@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Detalle del proyecto: Automatización Industrial. Tableros de control y automatización de líneas de ensamble." />
+    <!-- Preconnect Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Modern Typography -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@300;400;600;800&display=swap"
+        rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Google Model Viewer -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <title>Automatización Industrial | OTRelectricidad</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar scrolled" id="navbar">
+        <div class="container nav-content">
+            <a href="./index.html" class="logo">
+                <span class="logo-accent">OTR</span>electricidad
+            </a>
+            <nav class="nav-links">
+                <a href="./index.html#servicios" class="nav-link">Servicios</a>
+                <a href="./index.html#proyectos" class="nav-link">Proyectos</a>
+                <a href="./index.html#cotizador" class="nav-link">Cotizador</a>
+                <a href="./index.html#contacto" class="btn btn-primary btn-sm">Contactar</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu" id="mobile-menu-btn">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-content">
+            <button class="close-menu-btn" id="close-menu-btn">
+                <i data-lucide="x"></i>
+            </button>
+            <a href="./index.html#servicios" class="mobile-nav-link">Servicios</a>
+            <a href="./index.html#proyectos" class="mobile-nav-link">Proyectos</a>
+            <a href="./index.html#cotizador" class="mobile-nav-link">Cotizador</a>
+            <a href="./index.html#contacto" class="btn btn-primary">Contactar Ahora</a>
+        </div>
+    </div>
+
+    <!-- Project Detail Hero -->
+    <main class="project-detail py-24 mt-8">
+        <div class="container">
+            <!-- Breadcrumb -->
+            <a href="./index.html#proyectos" class="back-link mb-4 inline-flex items-center text-muted">
+                <i data-lucide="chevron-left" class="icon-sm"></i> Volver a Proyectos
+            </a>
+
+            <!-- 3D Header -->
+            <div class="project-detail-hero glass-panel mb-8 reveal reveal-scale relative">
+                <model-viewer src="https://modelviewer.dev/shared-assets/models/Astronaut.glb"
+                    alt="Modelo 3D de Automatización" auto-rotate camera-controls rotation-per-second="20deg"
+                    camera-orbit="0deg 75deg 2m" shadow-intensity="1" class="detail-model-viewer">
+                </model-viewer>
+                <div class="badge absolute top-4 right-4 bg-dark">
+                    <span class="pulse-dot"></span> Interactivo 3D
+                </div>
+            </div>
+
+            <!-- Content -->
+            <article class="project-article reveal reveal-up">
+                <header class="mb-8 border-bottom pb-8">
+                    <h1 class="project-main-title mb-4">Automatización <span class="text-accent">Industrial</span></h1>
+                    <div class="project-meta flex gap-4 text-muted">
+                        <span><i data-lucide="calendar" class="icon-sm inline-block"></i> Enero 2026</span>
+                        <span><i data-lucide="map-pin" class="icon-sm inline-block"></i> Planta Automotriz (Zona
+                            Sur)</span>
+                        <span><i data-lucide="tag" class="icon-sm inline-block"></i> Eléctrica, Automatización</span>
+                    </div>
+                </header>
+
+                <div class="article-content max-w-3xl">
+                    <h3>El Desafío</h3>
+                    <p>Una planta automotriz necesitaba modernizar su línea principal de ensamble, integrando nuevos
+                        tableros de control con PLCs modernos y minimizando el tiempo de inactividad durante la
+                        migración desde un sistema heredado desactualizado.</p>
+
+                    <h3>Nuestra Solución</h3>
+                    <p>El equipo de ingeniería de OTRelectricidad proyectó, ensambló e instaló en sitio 15 tableros
+                        generales de baja tensión (TGBT) y tableros seccionales (TS) certificados. Programamos la lógica
+                        de control para sincronizar cinco brazos robóticos con la banda transportadora principal.</p>
+
+                    <ul class="feature-list mt-8 mb-8 pl-4">
+                        <li><strong>Ingeniería Detallada</strong> y planimetría conforme a obra.</li>
+                        <li><strong>Tableros TGBT IP65</strong> con componentes Schneider Electric.</li>
+                        <li><strong>Migración Cero-Downtime</strong> planificada en ventanas de mantenimiento nocturno.
+                        </li>
+                        <li>Monitoreo SCADA remoto implementado para jefatura de planta.</li>
+                    </ul>
+
+                    <h3>Resultados</h3>
+                    <p>El proyecto se entregó 2 semanas antes de lo estipulado. Tras la puesta en marcha, la planta
+                        midió una optimización del consumo eléctrico en la línea afectada del 18%, y el sistema ofrece
+                        diagnósticos en tiempo real que previenen potenciales paradas de planta.</p>
+                </div>
+
+                <div class="mt-12 text-center">
+                    <a href="./index.html#cotizador" class="btn btn-primary btn-lg shine-effect">
+                        Quiero una solución similar
+                        <i data-lucide="arrow-right" class="icon-sm"></i>
+                    </a>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contacto" class="footer py-12 section-darker border-top">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="./index.html" class="logo mb-4 inline-block">
+                    <span class="logo-accent">OTR</span>electricidad
+                </a>
+                <p class="text-muted">La ingeniería detrás de la tranquilidad absoluta.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Contacto Directo</h4>
+                <a href="https://wa.me/1234567890" target="_blank" class="contact-link">
+                    <i data-lucide="message-square" class="text-accent"></i>
+                    Atención Vía WhatsApp
+                </a>
+                <a href="mailto:contacto@otrelectricidad.com" class="contact-link mt-2">
+                    <i data-lucide="mail" class="text-accent"></i>
+                    contacto@otrelectricidad.com
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom text-center pt-8 border-top text-muted text-sm mt-8">
+            &copy; 2025 OTRelectricidad. Todos los derechos reservados.
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/1234567890" class="floating-wa pulse-wa" target="_blank" aria-label="Chat en WhatsApp">
+        <i data-lucide="message-circle" class="wa-icon"></i>
+    </a>
+
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>
