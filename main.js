@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // 5. Quotation Form Logic -> Generate WhatsApp Link
     const quoteForm = document.getElementById('quote-form');
     // Default Phone Number (can be changed later by the user)
-    const WHATSAPP_NUMBER = "3525503704";
+    const WHATSAPP_NUMBER = "543525503704";
 
     quoteForm.addEventListener('submit', (e) => {
         e.preventDefault();
