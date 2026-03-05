@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 2. Navbar Scroll Effect
     const navbar = document.getElementById('navbar');
-    
+
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
             navbar.classList.add('scrolled');
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
         rootMargin: "0px 0px -50px 0px"
     };
 
-    const revealOnScroll = new IntersectionObserver(function(entries, observer) {
+    const revealOnScroll = new IntersectionObserver(function (entries, observer) {
         entries.forEach(entry => {
             if (!entry.isIntersecting) {
                 return;
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // 5. Quotation Form Logic -> Generate WhatsApp Link
     const quoteForm = document.getElementById('quote-form');
     // Default Phone Number (can be changed later by the user)
-    const WHATSAPP_NUMBER = "1234567890"; 
+    const WHATSAPP_NUMBER = "3525503704";
 
     quoteForm.addEventListener('submit', (e) => {
         e.preventDefault();
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Open WhatsApp in new tab
         window.open(whatsappUrl, '_blank');
-        
+
         // Optional: Reset form after sending
         quoteForm.reset();
     });
