@@ -9,6 +9,9 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^4.5.3"
+    "vite": "^6.3.5"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-win32-x64-msvc": "^4.59.0"
   }
 }
