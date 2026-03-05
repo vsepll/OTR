@@ -854,6 +854,12 @@ model-viewer {
   gap: 0;
   transform: none;
   /* Override default glass-panel transform */
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+.quotation-wrapper .section-title {
+  color: #0f172a;
 }
 
 .quotation-wrapper:hover {
@@ -868,7 +874,7 @@ model-viewer {
 }
 
 .quotation-desc {
-  color: var(--text-muted);
+  color: #475569;
   margin-bottom: 2rem;
   font-size: 1.1rem;
 }
@@ -888,8 +894,8 @@ model-viewer {
 
 .quotation-form-wrapper {
   padding: 4rem;
-  background: rgba(0, 0, 0, 0.3);
-  border-left: 1px solid var(--border-light);
+  background: rgba(0, 0, 0, 0.03);
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .form-group {
@@ -901,16 +907,16 @@ model-viewer {
   margin-bottom: 0.5rem;
   font-weight: 500;
   font-size: 0.95rem;
-  color: var(--text-main);
+  color: #0f172a;
 }
 
 .form-control {
   width: 100%;
   padding: 0.875rem 1rem;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid var(--border-light);
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
   border-radius: 0.5rem;
-  color: var(--text-main);
+  color: #0f172a;
   font-family: var(--font-body);
   font-size: 1rem;
   transition: all var(--transition-fast);
@@ -919,7 +925,7 @@ model-viewer {
 .form-control:focus {
   outline: none;
   border-color: var(--accent-red);
-  background: rgba(255, 255, 255, 0.08);
+  background: #ffffff;
   box-shadow: 0 0 0 3px var(--accent-red-glow);
 }
 
@@ -1088,7 +1094,7 @@ textarea.form-control {
   .quotation-form-wrapper {
     padding: 3rem 2rem;
     border-left: none;
-    border-top: 1px solid var(--border-light);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
   .benefit-list li {
